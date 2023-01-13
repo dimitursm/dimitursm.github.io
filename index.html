@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Car-sharing application</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="topnav">
+        
+        <a href="signin.html">Sign-in page</a>
+        <a href="login.html">Log-in page</a>
+        <h1 >Car-Sharer</h1>
+    </div>
+    <form>
+        <div class="subbut">
+        
+            <label for="start">From:</label>
+            <select id="start" name="start">
+            <option value="Amsterdam">Amsterdam</option>
+            <option value="Rotterdam">Rotterdam</option>
+            <option value="The Hague">The Hague</option>
+            <option value="Utrecht">Utrecht</option>
+            <option value="Eindhoven">Eindhoven</option>
+            </select>
+            <label for="end">To:</label>
+            <select id="end" name="end">
+            <option value="Eindhoven">Eindhoven</option>
+            <option value="Rotterdam">Rotterdam</option>
+            <option value="The Hague">The Hague</option>
+            <option value="Utrecht">Utrecht</option>
+            <option value="Amsterdam">Amsterdam</option>
+            </select>
+        </div>
+            <div class="subbut">
+                <input type="submit" value="Search">
+            </div>
+    </form>
+    <div class="pcontainer">
+    <div class="menu-container">
+        <div class="menu-item">Amsterdam-Utrecht-Eindhoven : Intersity train</div>
+        <div class="menu-item">Amsterdam-Utrecht-Eindhoven : Sprinter train</div>
+        <div class="menu-item">Amsterdam-Utrecht-Eindhoven : Car - A2</div>
+        <div class="menu-item">Amsterdam-The Hague-Eindhoven : Car - A4</div>
+        <div class="menu-item">Amsterdam-Amersfoort-Eindhoven : Car - A1</div>
+        <div class="menu-item">Amsterdam-Rotterdam-Eindhoven : Car - A4</div>
+        <div class="menu-item">Amsterdam-Dordrecht-Eindhoven : Car - A4</div>
+        <div class="menu-item">Amsterdam-Almere-Eindhoven : Car - A1 and A6</div>
+        <div class="menu-item">Amsterdam-Nijmegen-Eindhoven : Car - A2</div> 
+    </div>
+</div>
+    <div class="map">
+        <img src="route.jpg" alt="google maps route">
+    </div>
+
+
+    <footer>
+        <p>Vinchentzo Bunardzhiev and Dimitar Smenovski - 2023</p>
+    </footer>
+    <!--Add a footer at the bottom w/ our names and affiliaiton-->
+</body>
+</html>
